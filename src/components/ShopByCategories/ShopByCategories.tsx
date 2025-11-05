@@ -45,7 +45,7 @@ const ShopByCategories: React.FC = () => {
                 </div>
                 <div className={styles.p_b}>
                   <p className={styles.categoryName}>{category}</p>
-                  <button>
+                  <button className={styles.shopButton}>
                     <img src={shopIcon} alt="Shop icon" className={styles.shopIcon} />
                   </button>
                 </div>
