@@ -35,8 +35,8 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 20px;
-  padding-bottom: 16px;
   scroll-behavior: smooth;
+  background: transparent;
 }
 
 /* Приховати скролбар */
@@ -58,7 +58,6 @@
     -8px 46px 19px 0 rgba(0, 0, 0, 0.01), -12px 72px 20px 0 rgba(0, 0, 0, 0);
   box-sizing: border-box;
   scroll-snap-align: start;
-  /* padding: 16px; */
 }
 
 /* Зображення */
@@ -124,4 +123,10 @@
 .arrowIcon {
   width: 17px;
   height: 32px;
+}
+
+.shopButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
