@@ -35,7 +35,7 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 24px;
-  background-color: tomato;
+  background-color: rgb(210, 45, 15);
   scroll-behavior: smooth;
   background: transparent;
 }
