@@ -16,7 +16,7 @@
   padding: 0 120px;
 }
 
-/* Заголовок */
+/* Заголовок секції */
 .heading {
   font-weight: 600;
   font-size: 32px;
@@ -34,7 +34,7 @@
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 20px;
+  gap: 24px;
   scroll-behavior: smooth;
   background: transparent;
 }
