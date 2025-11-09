@@ -52,9 +52,6 @@ const products = [
 
 const PopularProducts: React.FC = () => {
 
-// const [oldPrice] = useState(70.99);
-// const [newPrice] = useState(50.99);
-
   const carouselRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
