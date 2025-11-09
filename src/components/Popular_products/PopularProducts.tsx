@@ -23,7 +23,7 @@ const products = [
     category: "Sensors",
     oldPrice: 45.5,
     newPrice: 35.0,
-    isNew: false,
+    isNew: true,
     isHit: false
   },
   {
