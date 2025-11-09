@@ -22,7 +22,7 @@
   font-size: 32px;
   text-transform: uppercase;
   margin-bottom: 48px;
-  color: rgb(240, 87, 87);
+  color: #000;
 }
 
 /* Обгортка для каруселі та стрілок */
@@ -36,7 +36,7 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 24px;
-  background-color: rgb(135, 37, 19);
+  background-color: transparent;
   scroll-behavior: smooth;
   background: transparent;
 }
