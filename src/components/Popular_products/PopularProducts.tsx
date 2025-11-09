@@ -1,6 +1,6 @@
 import React, { useRef} from "react";
 import styles from "./PopularProducts.module.css";
-import Bag from "./svg/bag.svg";
+import Bag from "./svg/Bag.svg";
 import ArrowLeftIcon from "./svg/left.svg";
 import ArrowRightIcon from "./svg/rigth.svg";
 
