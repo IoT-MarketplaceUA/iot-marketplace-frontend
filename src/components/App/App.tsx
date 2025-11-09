@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Banner from '../Banner/Banner';
 import ShopByCategories from '../ShopByCategories/ShopByCategories';
 import Banner_Two from '../Banner_Two/Banner_Two';
+import PopularProducts from '../Popular_products/PopularProducts';
 
 
 const App: React.FC = () => {
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <Banner />
       <ShopByCategories />
       <Banner_Two />
+      <PopularProducts />
     </div>
   );
 };
