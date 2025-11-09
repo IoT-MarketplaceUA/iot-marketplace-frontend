@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 📦 Обгортка банера: вертикальні відступи зверху і знизу */
+.banner {
+  padding: 0x 0 64px 0;
+}
+
+/* 🖼 Основний контейнер банера з фоном і обмеженою шириною */
+.bannerContainer {
+  font-family: "Rubik", sans-serif;
+  background: #1e1e1e;
+  /* border-radius: 25px; */
+  height: 600px;
+  max-width: 1440px;
+  /* width: calc(100% - 240px); */
+  margin: 0 auto;
+  padding: 0 2px;
+  position: relative;
+}
+
+.diagonalLine {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.diagonalLine_two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 📝 Заголовок банера */
+.title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 486px;
+  position: absolute;
+  /* top: 58px; */
+  /* left: 100px; */
+  z-index: 2;
+  right: 120px;
+  bottom: 158px;
+  text-align: right;
+}
+
+/* 🛒 Кнопка "Shop now" з іконкою */
+.shopButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-radius: 50px;
+  padding: 0px 24px;
+  width: 211px;
+  background-color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  color: #909090;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 68px;
+  /* left: 200px; */
+  right: 120px;
+}
+
+/* 🖼 Іконка всередині кнопки "Shop now" */
+.shopIcon {
+  border-radius: 300px;
+  width: 44px;
+  height: 44px;
+  margin-left: 50px;
+}
